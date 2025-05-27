@@ -30,7 +30,7 @@ export default function Home() {
                 href=""
                 className={
                   buttonVariants({ variant: "outline" }) +
-                  " text-center w-[100%] bg-[#1a1a1a] text-[#fff] rounded-lg"
+                  " text-center w-[100%]"
                 }
               >
                 start your free trial
@@ -100,7 +100,7 @@ export default function Home() {
               href=""
               className={
                 buttonVariants({ variant: "outline" }) +
-                " text-center p-5 font-2xl bg-[#1a1a1a] text-[#fff] rounded-lg"
+                "text-center p-5 font-2xl"
               }
             >
               Start Your FREE trial
