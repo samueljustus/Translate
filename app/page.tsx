@@ -5,6 +5,7 @@ import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 import Header from "@/components/myComponent/header";
 import { FaGlobe, FaLanguage, FaPen } from "react-icons/fa";
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
@@ -96,15 +97,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-10 text-center">
-            <Link
-              href=""
-              className={
-                buttonVariants({ variant: "outline" }) +
-                "text-center p-5 font-2xl"
-              }
-            >
-              Start Your FREE trial
-            </Link>
+          <Button variant="outline" className="w-[100%]" >Start your free trial</Button>
           </div>
         </section>
       </div>
